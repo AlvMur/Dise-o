@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+  <html lang="es">
+  <head>
+      <title>Tree House</title>
+      <!-- Required meta tags -->
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <meta name="description" content="Web de ocio Dos Hermanas">
+      <meta name="keywords" content="ocio, dos hermanas, niños, entretenimiento, deporte, salud, cumpleaños, fiestas">
+      <meta name="author" content="Álvaro Murillo Aparicio">
+
+      <!-- Bootstrap CSS -->
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+      <!-- Course CSS -->
+      <link rel="stylesheet" href="index.css">
+      <link rel="icon" href="resources/images/favicon.ico">
+
+
+    </head>
+    <body>
+      <div class="container-principal container">
+
+        
+        <section class="cabecera">
+      <div class="row pl-0 pr-0" id="logoBanner" >
+        <div class="col-2">
+          <img src="images/treeHouseLogo.png" alt="Responsive image" width="250" height="250" class="rounded-circle logo">
+        </div>
+        <div class="col-10 " >
+          <br>
+          <img src="images/treeHouseBanner.png" id="banner" class="img-fluid ml-5 banner" alt="Responsive image" width="400">
+        </div>
+      
+      </div>
+      
+       
+      <nav class="navbar navbar-expand-lg navbar-light mb-3" >
+        <a class="navbar-brand" id="fuenteTree" href="index.html">Tree House</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse navbar-expand-sm" id="navbarNav">
+          <ul class="navbar-nav navegacion">
+            <li class="nav-item active">
+              <a class="nav-link "><a href="instalaciones.html" class="btn btn-instalaciones " id="fuenteTree">Instalaciones</a>
+                <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                <a href="videos.html" class="btn btn-videos ml-4" id="fuenteTree">Videos</a>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                <a href="#" class="btn btn-canciones ml-4" id="fuenteTree" onclick="document.getElementById('playSong').play()">¡Canciones!</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+     
+      
+      </section>
+      <section class="contenido">
+
+
+      <div class="row" >
+        <div class="col-12 ml-3 " id="titulo">
+          <p id="fuenteTree">Actividades hoy</p><hr>
+
+        </div>
+      </div>
+      <!--*Actualizacion -->
+      <div class="row activi ">
+        <div class="col-lg-4 col-md-6 d-flex justify-content-center">
+          <div class="card" style="width:350px">
+              <h4 class="card-title textoImagen">¡Llega Halloween a TreeHouse!</h4>
+          <div class="card-body">
+                <img class="card-img-bottom" id="imagenclickable" src="images/imagenprueba1.jpg" alt="Card image">
+          </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 d-flex justify-content-center">
+          <div class="card" style="width:350px">
+              <h4 class="card-title textoImagen">El cocodrilo se metió en la cueva - Canción</h4>
+          <div class="card-body">
+                <img class="card-img-bottom" id="imagenclickable" src="images/imagenprueba2.jpg" alt="Card image">
+          </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 d-flex justify-content-center">
+          <div class="card" style="width:350px">
+              <h4 class="card-title textoImagen">¿Qué soy? - Aprende profesiones</h4>
+          <div class="card-body">
+                <img class="card-img-bottom" id="imagenclickable" src="images/imagenprueba3.jpg" alt="Card image">
+          </div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="row activi">
+        <div class="col-lg-4 col-md-6 d-flex justify-content-center">
+          <div class="card" style="width:350px">
+              <h4 class="card-title textoImagen">El arca de Noé - Canción</h4>
+          <div class="card-body">
+                <img class="card-img-bottom" id="imagenclickable" src="images/imagenprueba4.jpg" alt="Card image">
+          </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 d-flex justify-content-center">
+          <div class="card" style="width:350px">
+              <h4 class="card-title textoImagen">¡Comemos sano! - Adivina la fruta</h4>
+          <div class="card-body">
+                <img class="card-img-bottom" id="imagenclickable" src="images/imagenprueba5.jpg" alt="Card image">
+          </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 d-flex justify-content-center">
+          <div class="card" style="width:350px">
+              <h4 class="card-title textoImagen">Cocina con el monstruo de las galletas - Corto</h4>
+          <div class="card-body">
+                <img class="card-img-bottom" id="imagenclickable" src="images/imagenprueba6.jpg" alt="Card image">
+          </div>
+          </div>
+        </div>
+
+      </div>
+      <audio autoplay controls id="playAudio">
+          <source src="sound/ElmoHello.mp3">
+      </audio>
+      
+      <audio id="playSong">
+        <source src="sound/ElmoLaLaLa.mp3">
+    </audio>
+       
+      
+      <!--Cierre del container-->
+      </section>
+      <footer class="page-footer font-small " >
+        <div class="container text-center text-md-left">
+
+          <div class="row">
+
+            <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mt-4 mb-4">
+              <h6 class="text-uppercase font-weight-bold">Sobre nosotros</h6>
+              <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+              <p>Esta página ha sido creada por:<br /> <cite><b>Álvaro Murillo Aparicio</b></cite> <br /><br />Para la asignatura
+                de Diseño de interfaces web.</p>
+            </div>
+
+            <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-4 mb-4">
+
+              <h6 class="text-uppercase font-weight-bold">Tienda</h6>
+              <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+              <p>
+                <a href="#!">Apps Android/IOs</a>
+              </p>
+              <p>
+                <a href="#!">iTunes</a>
+              </p>
+              <p>
+                <a href="#!">Spotify</a>
+              </p>
+            </div>
+
+            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mt-4 mb-4">
+
+              <h6 class="text-uppercase font-weight-bold">Contacto</h6>
+              <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+              <p>
+                <i class="fas fa-home mr-3"></i>Dos Hermanas, Sevilla 41089 España</p>
+              <p>
+                <i class="fas fa-envelope mr-3"></i> xamurapa973@ieshnosmachado.org</p>
+              <p>
+                <i class="fas fa-phone mr-3"></i><a href="contacto.html">¡Contáctanos!</a></p>
+            </div>
+          </div>
+        </div>
+
+
+        <!-- Copyright -->
+        <div class="footer-copyright text-center py-3 pie">© 2020 Copyright:
+          <a href=""> Hermanos Machado.org</a>
+        </div>
+        <!-- Copyright -->
+      </footer>
+      <!-- Footer -->
+    </div>
+    <!-- Footer -->
+    <!-- Footer -->
+    </div>
+      
+
+    </body>
+
+
+  </html>
