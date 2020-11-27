@@ -20,150 +20,141 @@
 
 
 </head>
-<body>
-  <div class="container-principal container">
+  <body>
+    <div class="container container-principal">
+      <div class="row">
+        <div class="col-xl-3 col-lg-3 d-lg-inline  d-none pl-0  mt-1 mb-1">
+          <img class ="logo rounded-circle" src="images/treeHouseLogo.png" alt="Responsive image" width="250" height="250" class="rounded-circle logo">
 
-
-    <section class="cabecera">
-
-
-      <div class="row" id="logoBanner">
-        <div class="col-lg-2">
-          <img src="images/treeHouseLogo.png" width="250" height="250" class="rounded-circle logo">
         </div>
-        <div class="col-lg-10">
-          <br>
+        <div class="col-xl-9 col-lg-9 col-md-12  col-sm-12 col-12 mt-4 ">
           <img src="images/treeHouseBanner.png" id="banner" class="img-fluid ml-5 banner" alt="Responsive image" width="400">
         </div>
       </div>
-      <div class="row">
-        <div class="col-md-12">
-          <nav class="navbar navbar-expand-lg navbar-light mb-3">
-            <a class="navbar-brand" id="fuenteTree" href="index.html">Tree House</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse navbar-expand-sm" id="navbarNav">
-              <ul class="navbar-nav navegacion">
-                <li class="nav-item active">
-                  <a class="nav-link"><a href="instalaciones.html" class="btn btn-instalaciones ml-4" id="fuenteTree">Instalaciones</a>
-                  <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">
-                    <a href="videos.html" class="btn btn-videos ml-4" id="fuenteTree">Videos</a>
-                  </a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">
-                    <a href="#" class="btn btn-canciones ml-4" id="fuenteTree" onclick="document.getElementById('playSong').play()">¡Canciones!</a>
-                  </li>
-                </ul>
-              </div>
-            </nav>
-          </div>
-        </section>
-        <section class="contenido">
+    
+      <!-------------------------------------------------------------->
 
-          <div class="row" >
-            <div class="col-lg-12" id="titulo">
-              <p id="fuenteTree">Videos de la semana</p><hr>
+    <div class="row">
+      <div class="col-sm-12 col-md-12 col-lg-12 pl-0 pr-0">
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand" id="fuenteTree" href="index.html">Tree House</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse navbar-expand-sm mb-0" id="navbarNav">
+          <ul class="navbar-nav navegacion">
+            <li class="nav-item active">
+              <a class="nav-link "href="instalaciones.html">
+                <div class="btn btn-instalaciones mt-2" id="fuenteTree">Instalaciones</div>
+              </a>
+                <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " href="videos.html">
+                <div class="btn btn-videos mt-2" id="fuenteTree">Videos</div></a>
+                <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " href="#">
+                <div class="btn btn-canciones mt-2" id="fuenteTree"  onclick="document.getElementById('playSong').play()">¡Canciones!</div></a>
+                <span class="sr-only">(current)</span></a>  
+            </li>
+          </ul>
+        </div>
+      </nav>        
+      </div>
+    </div>
+
+    <!-- CUERPO --------------------------------------------------->
+    <div class="container-fluid">
+      <div class="row contenido">
+        <div class="col-12 mt-1 titulo">
+          <p id="fuenteTree">Videos de la semana</p>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid">
+      <div class="row contenido justify-content-center">
+        <div class=" col-md-12 col-lg-12 col-xl-6 d-flex justify-content-center mt-5">
+          <div class="card" style="width:530px">
+            <h4 class="card-title textoImagen">¡Llega Halloween a TreeHouse!</h4>
+            <div class="card-body">
+              <iframe width="500" height="315" src="https://www.youtube.com/embed/shbi4VD2yAM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
           </div>
-
-          <div class="row activi">
-            <div class="col-lg-6 col-md-12 d-flex justify-content-center">
-              <div class="card" style="width:530px">
-                <h4 class="card-title textoImagen">¡Llega Halloween a TreeHouse!</h4>
-                <div class="card-body">
-                  <iframe width="500" height="315" src="https://www.youtube.com/embed/shbi4VD2yAM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-6 d-flex justify-content-center">
-              <div class="card" style="width:530px">
-                <h4 class="card-title textoImagen">Elmo tenía 4 patos</h4>
-                <div class="card-body">
-                  <iframe width="500" height="315" src="https://www.youtube.com/embed/rgQoTh6F8rE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                </div>
-              </div>
+        </div>
+        <div class=" col-md-12 col-lg-12 col-xl-6  d-flex justify-content-center mt-5">
+          <div class="card" style="width:530px">
+            <h4 class="card-title textoImagen">Elmo tenía 4 patos</h4>
+            <div class="card-body">
+              <iframe width="500" height="315" src="https://www.youtube.com/embed/rgQoTh6F8rE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
           </div>
+        </div>
+        
+          <div class="col-12 ">
+            <p  class="text-center textoImagen">Recuerda siempre seguirnos en nuestro canal de Youtube para más contenido</p>
+          </div>
+        
+        <div class="col-12 d-flex justify-content-center mb-3">
+          <video width="720" height="auto" controls>
+            <source src="video/Muppets - Bohemian Rhapsody.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+        </div>
+      </div>
+    </div>
 
-          <div class="row texto">
-            <div class="col-lg-12" id="fuenteTree">
-              <p>Recuerda siempre seguirnos en nuestro canal de Youtube para más contenido</p>
+    <div class="container-fluid pl-0 pr-0">
+      <footer class="page-footer font-small " >
+        <div class="container text-center text-md-left">
+
+          <div class="row">
+
+            <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mt-4 mb-4">
+              <h6 class="text-uppercase font-weight-bold">Sobre nosotros</h6>
+              <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+              <p>Esta página ha sido creada por:<br /> <cite><b>Álvaro Murillo Aparicio</b></cite> <br /><br />Para la asignatura
+                de Diseño de interfaces web.</p>
+            </div>
+
+            <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-4 mb-4">
+
+              <h6 class="text-uppercase font-weight-bold">Tienda</h6>
+              <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+              <p>
+                <a href="#!">Apps Android/IOs</a>
+              </p>
+              <p>
+                <a href="#!">iTunes</a>
+              </p>
+              <p>
+                <a href="#!">Spotify</a>
+              </p>
+            </div>
+
+            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mt-4 mb-4">
+
+              <h6 class="text-uppercase font-weight-bold">Contacto</h6>
+              <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+              <p>
+                <i class="fas fa-home mr-3"></i>Dos Hermanas, Sevilla 41089 España</p>
+              <p>
+                <i class="fas fa-envelope mr-3"></i> xamurapa973@ieshnosmachado.org</p>
+              <p>
+                <i class="fas fa-phone mr-3"></i><a href="contacto.html">¡Contáctanos!</a></p>
             </div>
           </div>
-          <audio id="playSong">
-            <source src="sound/ElmoLaLaLa.mp3">
-          </audio>
-
-           
-          <div class="col-12 d-flex justify-content-center mb-3">
-            <video width="720" height="auto" controls>
-              <source src="video/Muppets - Bohemian Rhapsody.mp4" type="video/mp4">
-              Your browser does not support the video tag.
-            </video>
-          </div>
+        </div>
 
 
-          <!--Cierre del container-->
-        </section>
-        <footer class="page-footer font-small" >
-          <div class="container text-center text-md-left">
-
-            <div class="row">
-
-              <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mt-4 mb-4">
-                <h6 class="text-uppercase font-weight-bold">Sobre nosotros</h6>
-                <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
-                <p>Esta página ha sido creada por:<br /> <cite><b>Álvaro Murillo Aparicio</b></cite> <br /><br />Para la asignatura
-                  de Diseño de interfaces web.</p>
-                </div>
-
-                <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-4 mb-4">
-
-                  <h6 class="text-uppercase font-weight-bold">Tienda</h6>
-                  <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
-                  <p>
-                    <a href="#!">Apps Android/IOs</a>
-                  </p>
-                  <p>
-                    <a href="#!">iTunes</a>
-                  </p>
-                  <p>
-                    <a href="#!">Spotify</a>
-                  </p>
-                </div>
-
-                <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mt-4 mb-4">
-
-                  <h6 class="text-uppercase font-weight-bold">Contacto</h6>
-                  <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
-                  <p>
-                    <i class="fas fa-home mr-3"></i>Dos Hermanas, Sevilla 41089 España</p>
-                    <p>
-                      <i class="fas fa-envelope mr-3"></i> xamurapa973@ieshnosmachado.org</p>
-                      <p>
-                        <i class="fas fa-phone mr-3"></i> + 34 634 567 88</p>
-                      </div>
-                    </div>
-                  </div>
-
-
-                  <!-- Copyright -->
-                  <div class="footer-copyright text-center py-3 pie">© 2020 Copyright:
-                    <a href=""> Hermanos Machado.org</a>
-                  </div>
-                  <!-- Copyright -->
-                </footer>
-                <!-- Footer -->
-              </div>
-              <!-- Footer -->
-              <!-- Footer -->
-
-            </body>
-
-
-            </html>
+        <!-- Copyright -->
+        <div class="footer-copyright text-center py-3 pie">© 2020 Copyright:
+          <a href=""> Hermanos Machado.org</a>
+        </div>
+        <!-- Copyright -->
+      </footer>
+      <!-- Footer -->
+    </div>
+  </body>
+</html>

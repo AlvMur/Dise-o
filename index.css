@@ -1,5 +1,3 @@
-/** CSS -------------------------------------------------------------------*/
-
 /** Fuentes personalizadas*/
 @font-face {
   font-family: "TreeFont";
@@ -9,96 +7,20 @@
   font-family: "ExtraLight";
   src: url("fonts/Grandstander-ExtraBoldItalic.otf");
 }
-/* Ajuste de pantallas*/
-/* Pantallas muy pequeña */
-@media screen and (max-width:576px) {
-
-.logo{
-	display: none;
-}
-.banner{
-
-	padding-right:  25%;
-}
 
 .container-principal{
-  text-align: center;
-}
-.navegacion{
-  text-align: center;
-}
-.card{
-  margin-bottom: 0.5em;
-  padding-right: 0.3em;
-}
 
-}
-/* Pantalla pequeña  sm */
-@media screen and (max-width:768px) {
-
-#logoBanner{
-  text-align: center;
-  margin-right: 20%;
+  background: linear-gradient(#a986e8, #eeaaae);
 }
 .logo{
-  display:none;
-
-}
-
-
-
-}
-
-/* Pantalla mediana md*/
-@media screen and (max-width:992px){
-.contenido{
-  text-align: center;
-}
-.activi{
-  padding-left: 0%;
-}
-.card{
-  margin-bottom: 5%;
-}
-
-
-
-}
-/* Pantallas muy grandes lg y xl*/
-@media screen and (min-width:993px) {
-
-  #banner{
-
-  padding-left: 3%;
-
-  }
-  #myCarousel{
-    padding-left: 25em;
-
-  }
-  .activi{
-    padding-left: 0.3em;
-  }
+  background-color: #8966c8;
   
 }
-/** Container*/
-
-.container-principal{
- /* max-width: 1400px; */
-
-  
-  background: linear-gradient(#a986e8, #eeaaae)
-
-}
-
-/** Nav -----------------------------------------------------------------------------------------*/
 nav {
-	background-color: #8ED932;
-  border-style: solid;
-  border-color: black;
-  font-size: 0.7em;
-  
-  
+  background-color: #8ED932;
+    border-style: solid;
+    border-color: black;
+    font-size: 0.7em;
 }
 .navbar{
   border-radius: 45px;
@@ -106,52 +28,46 @@ nav {
   border-color: #1A1523;
   border-width: 0.3em;
 }
+.navegacion{
+  text-align: center;
+}
 #fuenteTree{
-	font-family: "TreeFont";
-	font-size: 3em;
+  font-family: "TreeFont";
+  font-size: 3em;
 }
 .btn-instalaciones, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
-    background-color: #4385F0 !important;
-    -webkit-border-radius: 35px;
-    -moz-border-radius: 35px;
-    border-radius: 35px;
-    color: white;
+  background-color: #4385F0 !important;
+  -webkit-border-radius: 35px;
+  -moz-border-radius: 35px;
+  border-radius: 35px;
+  color: white;
 
 }
 .btn-videos {
-    background-color: #DB2016 !important;
-    color: white;
-    -webkit-border-radius: 35px;
-    -moz-border-radius: 35px;
-    border-radius: 35px;
-}
-.btn-dibuja, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
-    background-color: #FC713A !important;
-    -webkit-border-radius: 35px;
-    -moz-border-radius: 35px;
-    border-radius: 35px;
-
+  background-color: #DB2016 !important;
+  color: white;
+  -webkit-border-radius: 35px;
+  -moz-border-radius: 35px;
+  border-radius: 35px;
 }
 .btn-canciones, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
-    background-color: #FAF216 !important;
-    -webkit-border-radius: 35px;
-    -moz-border-radius: 35px;
-    border-radius: 35px;
+  background-color: #FAF216 !important;
+  -webkit-border-radius: 35px;
+  -moz-border-radius: 35px;
+  border-radius: 35px;
 
 
 }
-/** Contenido---------------------------------------------------------------------*/
 
 .contenido{
   background-color: #eeeeee;
   border-style: solid;
   align-content: center;
-
-
-
 }
-.logo{
-	background-color: #8966c8;
+.titulo{
+  color: #ab0311;
+  
+
 }
 .textoImagen{
   font-family: "ExtraLight";
@@ -159,16 +75,14 @@ nav {
   text-align: center;
 
 }
+
 #imagenclickable{
   border-style: solid;
   -webkit-border-radius: 20px;
   -moz-border-radius: 20px;
   border-radius: 20px;
 }
-#titulo{
-	color: #ab0311;
-
-}
+/** Footer*/
 footer{
   background-color: #2A2533;
   padding-top: 1em;
@@ -180,22 +94,9 @@ footer{
 
 
 }
-li{
-  padding-bottom: 5%;
-}
-.texto{
-  font-size: 0.6em;
-}
-#nube1{
-	position: absolute;
-	top: 50px;
-	animation: anim-nube-horiz 40s linear 0s infinite normal;
-}
 #playAudio{
   bottom: 0; 
 position: fixed; 
 right: 0; 
 }
-
-/** PROBANDO COSAS*/
 
