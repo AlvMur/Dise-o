@@ -35,30 +35,67 @@ nav {
   font-family: "TreeFont";
   font-size: 3em;
 }
-.btn-instalaciones, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
-  background-color: #4385F0 !important;
+.navbar-brand:hover{
+  -webkit-transition:  transform 1.5s;
+  -moz-transition:  transform 1.5s;
+  -ms-transition:  transform 1.5s;
+  -o-transition:  transform 1.5s;
+  transition: transform 1.5s;
+  transform: rotate(360deg);
+}
+.btn-instalaciones{
+  background-color: #4385F0;
   -webkit-border-radius: 35px;
   -moz-border-radius: 35px;
   border-radius: 35px;
+  
   color: white;
-
+}
+.btn-instalaciones:hover{
+ 
+  -webkit-transition:  transform 1s;
+  -moz-transition:  transform 1s;
+  -ms-transition:  transform 1s;
+  -o-transition:  transform 1s;
+  transition: transform 1s;
+  transform: scale(1.2);
+  color: white;
 }
 .btn-videos {
-  background-color: #DB2016 !important;
+  background-color: #DB2016;
   color: white;
   -webkit-border-radius: 35px;
   -moz-border-radius: 35px;
   border-radius: 35px;
 }
+.btn-videos:hover{
+ 
+  -webkit-transition:  transform 1s;
+  -moz-transition:  transform 1s;
+  -ms-transition:  transform 1s;
+  -o-transition:  transform 1s;
+  transition: transform 1s;
+  transform: scale(1.2);
+  color: white;
+}
 .btn-canciones, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
-  background-color: #FAF216 !important;
+  background-color: #FAF216 ;
   -webkit-border-radius: 35px;
   -moz-border-radius: 35px;
   border-radius: 35px;
-
-
+  
 }
-
+.btn-canciones:hover{
+  
+  -webkit-transition:  transform 1s;
+  -moz-transition:  transform 1s;
+  -ms-transition:  transform 1s;
+  -o-transition:  transform 1s;
+  transition: transform 1s;
+  transform: scale(1.2);
+  
+  color: black;
+}
 .contenido{
   background-color: #eeeeee;
   border-style: solid;
@@ -95,8 +132,18 @@ footer{
 
 }
 #playAudio{
-  bottom: 0; 
+bottom: 0; 
 position: fixed; 
 right: 0; 
 }
 
+@keyframes swing{
+  0% {transform: translate(0px);}
+  50% {transform: translate(-30px)}
+  100% {transform: translate(0px);}
+  
+  
+}
+#animacion{
+  animation: swing 2s 0s infinite ;
+}
